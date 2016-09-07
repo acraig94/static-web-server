@@ -8,4 +8,4 @@ ADD kitten.jpg /www/data/
 
 EXPOSE 80
 
-CMD [ "nginx", "-g", "damon off;" ]
+CMD [ "nginx", "-g", "daemon off;" ]
